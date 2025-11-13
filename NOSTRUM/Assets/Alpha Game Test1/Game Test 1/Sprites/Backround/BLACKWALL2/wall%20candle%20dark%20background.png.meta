@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: af67342d6c458084cbcea29ddfeecec7
+guid: 1c06fcabca8ca2747b19664d684ea161
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2105800981888198451
-    second: Stone%20Tileset%20Fin_0
+      213: -3563662230704679676
+    second: wall%20candle%20dark%20background_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Stone%20Tileset%20Fin_0
+      name: wall%20candle%20dark%20background_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 432
-        width: 432
-        height: 432
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,74 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3376d1506de493d10800000000000000
-      internalID: 2105800981888198451
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stone%20Tileset%20Fin_1
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 432
-        width: 432
-        height: 432
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 157813adb1fdfd44a9fa9351f99fc90e
-      internalID: -1036404005
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stone%20Tileset%20Fin_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 432
-        height: 432
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ad2a5b2c882d7214282f1e26640da05a
-      internalID: -355149226
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stone%20Tileset%20Fin_3
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 0
-        width: 432
-        height: 432
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cc7cfe6ca9d1e1743a5c3414e4e83dbb
-      internalID: 49508871
+      spriteID: 4051f5f05145b8ec0800000000000000
+      internalID: -3563662230704679676
       vertices: []
       indices: 
       edges: []
@@ -191,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 127743ceea6042b448ba46423538e8e9
+    spriteID: 2fff10682d26a774ab702a64b0c127b8
     internalID: 0
     vertices: []
     indices: 
@@ -201,10 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Stone%20Tileset%20Fin_0: 2105800981888198451
-      Stone%20Tileset%20Fin_1: -1036404005
-      Stone%20Tileset%20Fin_2: -355149226
-      Stone%20Tileset%20Fin_3: 49508871
+      wall%20candle%20dark%20background_0: -3563662230704679676
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
