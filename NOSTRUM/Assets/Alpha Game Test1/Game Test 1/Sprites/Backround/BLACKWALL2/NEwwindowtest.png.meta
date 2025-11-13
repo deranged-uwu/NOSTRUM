@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e291567d8ca411b4f961df30df104858
+guid: aadb49e766a0a824ca5ea127c5137c2a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7295779521690965589
-    second: window%20w%20dark%20stone%20background_0
+      213: 3851289348674411822
+    second: window%20w%20dark%20stone%20background (1)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: window%20w%20dark%20stone%20background_0
+      name: window%20w%20dark%20stone%20background (1)_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 32
-        width: 16
-        height: 16
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,42 +115,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 55695fdf1d0df3560800000000000000
-      internalID: 7295779521690965589
+      spriteID: e2ddbf2f147827530800000000000000
+      internalID: 3851289348674411822
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: window%20w%20dark%20stone%20background_1
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f9e4af24688b98d408440b5597b2d296
-      internalID: 1692438820
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: window%20w%20dark%20stone%20background_2
+      name: window%20w%20dark%20stone%20background (1)_1
       rect:
         serializedVersion: 2
         x: 32
-        y: 32
-        width: 16
-        height: 16
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,20 +137,42 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92b0fe58333b82a4f948af213ad5b013
-      internalID: 1343743518
+      spriteID: 6da9ad34930318643bee6d4aa7292b1e
+      internalID: 1412861330
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: window%20w%20dark%20stone%20background_3
+      name: window%20w%20dark%20stone%20background (1)_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f76020d899c3f24fb85ab2bd460f51f
+      internalID: 1212625434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: window%20w%20dark%20stone%20background (1)_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 16
-        width: 16
-        height: 16
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,42 +181,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb7d05daa7888534ba9b7db01243f9aa
-      internalID: 2001894951
+      spriteID: 5076a0df5e349c844bb651accd8b0e41
+      internalID: 896192316
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: window%20w%20dark%20stone%20background_4
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 940bf9d8086678c4b923d167ed851b25
-      internalID: -1121986820
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: window%20w%20dark%20stone%20background_5
+      name: window%20w%20dark%20stone%20background (1)_4
       rect:
         serializedVersion: 2
         x: 32
-        y: 16
-        width: 16
-        height: 16
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,20 +203,42 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a0094483834cbe429ae476f9c86562c
-      internalID: 860408898
+      spriteID: 64c5e49d5fe38a54f9d0946a6742efcf
+      internalID: -2086864170
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: window%20w%20dark%20stone%20background_6
+      name: window%20w%20dark%20stone%20background (1)_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228ead29eb00ada40b7fe305175bf9e3
+      internalID: -1995532091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: window%20w%20dark%20stone%20background (1)_6
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 16
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,42 +247,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 494956c45c566dd4abf65fddf4477a3c
-      internalID: -200626236
+      spriteID: fe7acba154b260c48bc7e8231da7c11a
+      internalID: -2063523121
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: window%20w%20dark%20stone%20background_7
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ade7f27cd67125147a9cf7435725d8b9
-      internalID: -1118123471
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: window%20w%20dark%20stone%20background_8
+      name: window%20w%20dark%20stone%20background (1)_7
       rect:
         serializedVersion: 2
         x: 32
         y: 0
-        width: 16
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -291,8 +269,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e099345a7310081449c3c0ff0efd4bce
-      internalID: 96031653
+      spriteID: 0440169ffe02fe14aba26e618f4b02d0
+      internalID: 78328957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: window%20w%20dark%20stone%20background (1)_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06227fa9d3061a04a893af615610b765
+      internalID: -1416535694
       vertices: []
       indices: 
       edges: []
@@ -301,7 +301,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 1999be1c19d97b7478f2c930253b53cf
+    spriteID: ac633fefc4e66364a9672f0be578737f
     internalID: 0
     vertices: []
     indices: 
@@ -311,15 +311,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      window%20w%20dark%20stone%20background_0: 7295779521690965589
-      window%20w%20dark%20stone%20background_1: 1692438820
-      window%20w%20dark%20stone%20background_2: 1343743518
-      window%20w%20dark%20stone%20background_3: 2001894951
-      window%20w%20dark%20stone%20background_4: -1121986820
-      window%20w%20dark%20stone%20background_5: 860408898
-      window%20w%20dark%20stone%20background_6: -200626236
-      window%20w%20dark%20stone%20background_7: -1118123471
-      window%20w%20dark%20stone%20background_8: 96031653
+      window%20w%20dark%20stone%20background (1)_0: 3851289348674411822
+      window%20w%20dark%20stone%20background (1)_1: 1412861330
+      window%20w%20dark%20stone%20background (1)_2: 1212625434
+      window%20w%20dark%20stone%20background (1)_3: 896192316
+      window%20w%20dark%20stone%20background (1)_4: -2086864170
+      window%20w%20dark%20stone%20background (1)_5: -1995532091
+      window%20w%20dark%20stone%20background (1)_6: -2063523121
+      window%20w%20dark%20stone%20background (1)_7: 78328957
+      window%20w%20dark%20stone%20background (1)_8: -1416535694
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
