@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class NewMonoBehaviourScript : MonoBehaviour
 {
@@ -13,6 +14,8 @@ public class NewMonoBehaviourScript : MonoBehaviour
     
     private Rigidbody2D rb;
     private bool isGrounded;
+
+    private int numOfEnemies = 10;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -60,8 +63,26 @@ public class NewMonoBehaviourScript : MonoBehaviour
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * 0.5f);
             }
         }
-        
-        
+
+        if (Input.GetKeyUp(KeyCode.B))
+        {
+            numOfEnemies -= 1;
+            Debug.Log("Enemies left: " + numOfEnemies);
+            if(numOfEnemies == 0)
+            {
+                Debug.Log("Enemies over");
+                Invoke("NextScene",3f);
+            }
+           
+        }
+
+
+
+    }
+
+    void NextScene()
+    {
+        SceneManager.LoadScene("Alpha Game Test1/Game Test 1/Scenes/TutorialRoom");
     }
 
     private void FixedUpdate()
