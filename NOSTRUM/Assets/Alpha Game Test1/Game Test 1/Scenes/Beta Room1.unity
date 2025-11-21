@@ -417,6 +417,37 @@ Transform:
   - {fileID: 1561164191}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1048344741
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1048344742}
+  m_Layer: 0
+  m_Name: Rat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1048344742
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048344741}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.90105647, y: 0.07362649, z: 0.04094787}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1106413553
 GameObject:
   m_ObjectHideFlags: 0
@@ -482,7 +513,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -6447722072507503168, guid: 10f3cacccb0c4c547be76836eba20664, type: 3}
+  m_Sprite: {fileID: -6472020874031888831, guid: 5b737d27dbc0c494fbe1b46ff81c8016, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -502,8 +533,8 @@ Transform:
   m_GameObject: {fileID: 1106413553}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0216, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.245, y: -1.43, z: 0}
+  m_LocalScale: {x: 2.2745678, y: 1.9961964, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 314053911}
@@ -600,8 +631,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.03406492, y: 0}
-  m_Size: {x: 0.5376285, y: 1}
+  m_Offset: {x: 0.19830027, y: -0.070179835}
+  m_Size: {x: 0.37525243, y: 0.8596408}
   m_Direction: 0
 --- !u!114 &1106413567
 MonoBehaviour:
@@ -4380,7 +4411,7 @@ Transform:
   m_GameObject: {fileID: 1912045813}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.08, y: -0.15, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5911,3 +5942,4 @@ SceneRoots:
   - {fileID: 619394802}
   - {fileID: 1106413556}
   - {fileID: 844130893}
+  - {fileID: 1048344742}
