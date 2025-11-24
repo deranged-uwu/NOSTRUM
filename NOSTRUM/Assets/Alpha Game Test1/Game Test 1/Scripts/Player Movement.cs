@@ -1,9 +1,18 @@
-using System;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 public class NewMonoBehaviourScript : MonoBehaviour
 {
+    [Header("Attack Settings")]
+    public int damage;
+    public float attackRadius = 0.5f;
+    public Transform attackPoint;
+    public LayerMask enemy;
+
+
+
+
     public float moveSpeed = 5f;
     public float jumpForce = 10f;
     public Transform groundCheck;
@@ -14,8 +23,6 @@ public class NewMonoBehaviourScript : MonoBehaviour
 
     private Rigidbody2D rb;
     private bool isGrounded;
-
-    private int numOfEnemies = 10;
 
     private float coyoteTime = 0.15f;
     private float coyoteTimeCounter;
@@ -68,17 +75,6 @@ public class NewMonoBehaviourScript : MonoBehaviour
 
                 coyoteTimeCounter = 0f;
             }
-        }
-
-        if (Input.GetKeyUp(KeyCode.B))
-        {
-            numOfEnemies -= 1;
-            Debug.Log("Enemies left: " + numOfEnemies);
-            if (numOfEnemies == 0)
-            {
-                Debug.Log("Enemies over");
-                Invoke("NextScene", 3f);
-            }
 
         }
         if (isGrounded)
@@ -110,11 +106,6 @@ public class NewMonoBehaviourScript : MonoBehaviour
 
     }
 
-    void NextScene()
-    {
-        SceneManager.LoadScene("Alpha Game Test1/Game Test 1/Scenes/TutorialRoom");
-    }
-
     private void FixedUpdate()
     {
 
@@ -125,5 +116,11 @@ public class NewMonoBehaviourScript : MonoBehaviour
 
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
     }
+
+    public void OnAttack(InputValue value)
+    { 
+        Debug.Log("Attack Pressed");
+    }
+
 }
 
