@@ -17,6 +17,12 @@ public class NewMonoBehaviourScript : MonoBehaviour
 
     private int numOfEnemies = 10;
 
+    private float coyoteTime = 0.15f;
+    private float coyoteTimeCounter;
+
+    private float jumpBufferTime = 0.15f;
+    private float jumpBufferCounter;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -35,24 +41,22 @@ public class NewMonoBehaviourScript : MonoBehaviour
         float moveInput = Input.GetAxis("Horizontal");
         rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
 
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        if (coyoteTimeCounter > 0f && jumpBufferCounter > 0f)
 
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+
+            jumpBufferCounter = 0f;
         }
-
-
-        if (Input.GetKeyDown(KeyCode.Joystick1Button1) && isGrounded)
-
-        {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
-        }
-
+     
+        
         if (Input.GetKeyUp(KeyCode.Space))
         {
             if (rb.linearVelocity.y > 0)
             {
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * 0.5f);
+
+                coyoteTimeCounter = 0f;
             }
         }
 
@@ -61,6 +65,8 @@ public class NewMonoBehaviourScript : MonoBehaviour
             if (rb.linearVelocity.y > 0)
             {
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * 0.5f);
+
+                coyoteTimeCounter = 0f;
             }
         }
 
@@ -75,8 +81,32 @@ public class NewMonoBehaviourScript : MonoBehaviour
             }
 
         }
+        if (isGrounded)
+        { 
+            coyoteTimeCounter = coyoteTime;
+        }
+        else
+        {
+            coyoteTimeCounter -= Time.deltaTime;
+        }
 
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            jumpBufferCounter = jumpBufferTime;
+        }
+        else
+        {
+            jumpBufferCounter -= Time.deltaTime;
+        }
 
+        if(Input.GetKeyDown(KeyCode.Joystick1Button1))
+        {
+            jumpBufferCounter = jumpBufferTime;
+        }
+        else
+        {
+            jumpBufferCounter -= Time.deltaTime;
+        }
 
     }
 
