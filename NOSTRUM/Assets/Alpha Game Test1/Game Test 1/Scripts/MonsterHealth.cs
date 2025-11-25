@@ -15,20 +15,17 @@ public class MonsterHealth : MonoBehaviour
     {
         health = maxHealth;
     }
-    public void ChangeHealth(int amount)
-    {
-        health += amount;
-        if (health > maxHealth)
-            health = maxHealth;
 
-        else if (health <= 0)
-            OnDeath?.Invoke();
-
-        else if (health < 0)
-            OnDamaged?.Invoke();
-
-    }
    
+    public void TakeDamage(int damage)
+    {
+        health -= damage;
+
+        if (health <= 0)
+        {
+            Destroy(gameObject);
+        }
+    }
 
 }
 
