@@ -5,10 +5,18 @@ public class AttackArea : MonoBehaviour
     public MonsterHealth monsterHealth;
     private int damage = 1;
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    public void Update()
     {
+        //Debug.Log("Attack Area Active");
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log("checking collision");
         if (collision.gameObject.CompareTag("Enemy"))
         {
+            Debug.Log("enemy hit");
+            monsterHealth = collision.gameObject.GetComponent<MonsterHealth>();
             monsterHealth.TakeDamage(damage);
         }
     }

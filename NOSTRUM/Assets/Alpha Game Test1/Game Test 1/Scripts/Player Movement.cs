@@ -1,11 +1,13 @@
+using System.Threading;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 public class NewMonoBehaviourScript : MonoBehaviour
 {
+    public PlayerInput inputSys;
+
     [Header("Attack Settings")]
-    private GameObject attackArea = default;
     private bool attacking = false;
     private float timeToAttack = 0.25f;
     private float timer = 0f;
@@ -13,6 +15,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
 
 
     [Header("Movement Settings")]
+    public float horizontal;
     public float moveSpeed = 5f;
     public float jumpForce = 10f;
     public Transform groundCheck;
@@ -21,6 +24,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
 
     private SpriteRenderer spriteRenderer;
 
+    public Collider2D attackCollider;
 
     private Rigidbody2D rb;
     private bool isGrounded;
@@ -35,7 +39,6 @@ public class NewMonoBehaviourScript : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        attackArea = transform.GetChild(0).gameObject;
     }
 
     // Update is called once per frame
@@ -47,38 +50,9 @@ public class NewMonoBehaviourScript : MonoBehaviour
 
     void Update()
     {
-        float moveInput = Input.GetAxis("Horizontal");
-        rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
-
-        if (coyoteTimeCounter > 0f && jumpBufferCounter > 0f)
-
-        {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
-
-            jumpBufferCounter = 0f;
-        }
+        Movement(horizontal);
      
         
-        if (Input.GetKeyUp(KeyCode.Space))
-        {
-            if (rb.linearVelocity.y > 0)
-            {
-                rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * 0.5f);
-
-                coyoteTimeCounter = 0f;
-            }
-        }
-
-        if (Input.GetKeyUp(KeyCode.Joystick1Button1) || Input.GetKeyDown(KeyCode.Joystick1Button0))
-        {
-            if (rb.linearVelocity.y > 0)
-            {
-                rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * 0.5f);
-
-                coyoteTimeCounter = 0f;
-            }
-
-        }
         if (isGrounded)
         { 
             coyoteTimeCounter = coyoteTime;
@@ -88,29 +62,6 @@ public class NewMonoBehaviourScript : MonoBehaviour
             coyoteTimeCounter -= Time.deltaTime;
         }
 
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            jumpBufferCounter = jumpBufferTime;
-        }
-        else
-        {
-            jumpBufferCounter -= Time.deltaTime;
-        }
-
-        if(Input.GetKeyDown(KeyCode.Joystick1Button1) || Input.GetKeyDown(KeyCode.Joystick1Button0))
-        {
-            jumpBufferCounter = jumpBufferTime;
-        }
-        else
-        {
-            jumpBufferCounter -= Time.deltaTime;
-        }
-
-        if (Input.GetKeyDown(KeyCode.F) || Input.GetKeyDown(KeyCode.Joystick1Button2))
-        {
-            Attack();
-        }
-
         if (attacking)
         { 
             timer += Time.deltaTime;
@@ -118,8 +69,9 @@ public class NewMonoBehaviourScript : MonoBehaviour
             {
                 timer = 0;
                 attacking = false;
-                attackArea.SetActive(attacking);
+                attackCollider.enabled = attacking;
             }
+
         }
 
     }
@@ -127,18 +79,76 @@ public class NewMonoBehaviourScript : MonoBehaviour
     private void FixedUpdate()
     {
 
-        if (Input.GetAxisRaw("Horizontal") > 0)
-            spriteRenderer.flipX = false;
-        else if (Input.GetAxisRaw("Horizontal") < 0)
-            spriteRenderer.flipX = true;
+
 
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+    }
+
+    public void OnJump(InputAction.CallbackContext context)
+    {
+        if (coyoteTimeCounter > 0f && jumpBufferCounter > 0f)
+        {
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+
+            jumpBufferCounter = 0f;
+        }
+
+        if (context.started)
+        {
+            jumpBufferCounter = jumpBufferTime;
+        }
+        else 
+        {
+            jumpBufferCounter -= Time.deltaTime;
+        }
+        
+        if (context.canceled)
+        {
+            if (rb.linearVelocity.y > 0)
+            {
+                rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * 0.5f);
+
+                coyoteTimeCounter = 0f;
+            }
+        }
+    }
+
+    public void OnAttack(InputAction.CallbackContext context)
+    {
+        Attack();
+    }
+
+    public void OnMove(InputAction.CallbackContext context)
+    {
+        horizontal = context.ReadValue<float>();
+        if (horizontal > 0)
+        {
+            spriteRenderer.flipX = false;
+            Vector2 localScale = gameObject.transform.GetChild(0).localScale;
+            localScale.x = 0.4396439f;
+            gameObject.transform.GetChild(0).localScale = localScale;
+        }
+        else if (horizontal < 0)
+        {
+            spriteRenderer.flipX = true;
+            Vector2 localScale = gameObject.transform.GetChild(0).localScale;
+            localScale.x = -0.4396439f;
+            gameObject.transform.GetChild(0).localScale = localScale;
+
+        }
+    }
+
+    public void Movement(float value)
+    {
+        rb.linearVelocity = new Vector2(horizontal * moveSpeed, rb.linearVelocity.y);
+
     }
 
     private void Attack()
     {
         attacking = true;
-        attackArea.SetActive(attacking);
+        attackCollider.enabled = attacking;
+
     }
 
 }
