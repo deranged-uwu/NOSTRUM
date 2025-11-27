@@ -6,6 +6,11 @@ public class PlayerAnimation : MonoBehaviour
     public Animator anim;
     public void Attack()
     {
-        anim.SetBool("isAttacking", true);
+        anim.SetBool("IsAttacking", true);
+    }
+
+    public void NotAttacking()
+    {
+        anim.SetBool("IsAttacking", false);
     }
 }

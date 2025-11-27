@@ -11,7 +11,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
     private bool attacking = false;
     private float timeToAttack = 0.25f;
     private float timer = 0f;
-
+    
 
 
     [Header("Movement Settings")]
@@ -21,6 +21,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
     public Transform groundCheck;
     public float groundCheckRadius = 0.2f;
     public LayerMask groundLayer;
+    public PlayerAnimation playerAnimation;
 
     private SpriteRenderer spriteRenderer;
 
@@ -38,6 +39,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        
         rb = GetComponent<Rigidbody2D>();
     }
 
@@ -70,6 +72,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
                 timer = 0;
                 attacking = false;
                 attackCollider.enabled = attacking;
+                playerAnimation.NotAttacking();
             }
 
         }
@@ -148,7 +151,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
     {
         attacking = true;
         attackCollider.enabled = attacking;
-
+        playerAnimation.Attack();
     }
 
 }
