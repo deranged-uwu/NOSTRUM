@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Alpha Game Test1/Game Test 1/Scenes/MainMenu.unity
+    path: Assets/Alpha Game Test1/Game Test 1/Scenes/Main Menu/MainMenu.unity
     guid: 7942b9cc7238fe64ab5636955d512b13
   - enabled: 1
     path: Assets/Alpha Game Test1/Game Test 1/Scenes/Beta Room1.unity

@@ -4,8 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class TestPlayerMM : MonoBehaviour
 {
-    [Header("Attack Settings")]
-    private GameObject attackArea = default;
+    [Header("Attack Settings")] private GameObject attackArea = default;
     private bool attacking = false;
     private float timeToAttack = 0.25f;
     private float timer = 0f;
@@ -13,7 +12,7 @@ public class TestPlayerMM : MonoBehaviour
 
 
     [Header("Movement Settings")]
-    public float moveSpeed = 5f;
+public float moveSpeed = 5f;
     public float jumpForce = 10f;
     public Transform groundCheck;
     public float groundCheckRadius = 0.2f;
@@ -121,7 +120,7 @@ public class TestPlayerMM : MonoBehaviour
                 attackArea.SetActive(attacking);
             }
         }
-
+ 
     }
 
     private void FixedUpdate()
