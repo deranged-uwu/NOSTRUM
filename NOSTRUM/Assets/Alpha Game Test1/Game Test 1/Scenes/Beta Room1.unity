@@ -431,6 +431,7 @@ GameObject:
   - component: {fileID: 1106413562}
   - component: {fileID: 1106413565}
   - component: {fileID: 1106413567}
+  - component: {fileID: 1106413568}
   m_Layer: 3
   m_Name: Player
   m_TagString: Untagged
@@ -482,7 +483,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -6447722072507503168, guid: 10f3cacccb0c4c547be76836eba20664, type: 3}
+  m_Sprite: {fileID: -6394211740932296269, guid: 2821046b0ebc3d0439be2d87d9e4e544, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -502,8 +503,8 @@ Transform:
   m_GameObject: {fileID: 1106413553}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0216, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.05, y: -0.41, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 314053911}
@@ -600,8 +601,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.03406492, y: 0}
-  m_Size: {x: 0.5376285, y: 1}
+  m_Offset: {x: -0.0146626085, y: -0.04009801}
+  m_Size: {x: 0.44708434, y: 0.88876}
   m_Direction: 0
 --- !u!114 &1106413567
 MonoBehaviour:
@@ -610,9 +611,28 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1106413553}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a413f9807c935d248b956e30531a7aa8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
+  jumpForce: 10
+  groundCheck: {fileID: 314053911}
+  groundCheckRadius: 0.2
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
+--- !u!114 &1106413568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1106413553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1e022191771a3c4fb1a648b138b9adb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
