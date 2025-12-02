@@ -4,10 +4,11 @@ using UnityEngine.SceneManagement;
 public class FloorOne : MonoBehaviour
 {
     private int numOfEnemies = 3;
+    public string nextScene;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        SceneManager.LoadScene(nextScene);
     }
 
     // Update is called once per frame
