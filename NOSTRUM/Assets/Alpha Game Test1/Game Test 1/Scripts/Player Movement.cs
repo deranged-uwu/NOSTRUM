@@ -16,6 +16,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
 
     [Header("Movement Settings")]
     public float horizontal;
+    public float vertical;
     public float moveSpeed = 5f;
     public float jumpForce = 10f;
     public Transform groundCheck;
@@ -36,10 +37,13 @@ public class NewMonoBehaviourScript : MonoBehaviour
     private float jumpBufferTime = 0.15f;
     private float jumpBufferCounter;
 
+    [Header("Animation Settings")]
+    public Animator anim;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        Animator animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
     }
 
@@ -82,8 +86,8 @@ public class NewMonoBehaviourScript : MonoBehaviour
     private void FixedUpdate()
     {
 
-
-
+        anim.SetFloat("xVelocity", Mathf.Abs(rb.linearVelocity.x));
+        anim.SetFloat("yVelocity", rb.linearVelocity.y);
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
     }
 
@@ -113,6 +117,10 @@ public class NewMonoBehaviourScript : MonoBehaviour
 
                 coyoteTimeCounter = 0f;
             }
+        }
+        if (isGrounded == false)
+        {
+            anim.SetBool("IsJumping", true);
         }
     }
 
