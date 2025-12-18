@@ -5,7 +5,7 @@ public class MainMenu : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public void StartGame()
     {
-        SceneManager.LoadScene("Alpha Game Test1/Game Test 1/Scenes/Beta Room1");
+        SceneManager.LoadScene("Alpha Game Test1/Game Test 1/Scenes/TutorialRoom");
     }
 
     // Update is called once per frame
