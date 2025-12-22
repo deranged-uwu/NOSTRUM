@@ -96,6 +96,8 @@ public class NewMonoBehaviourScript : MonoBehaviour
         if (coyoteTimeCounter > 0f && jumpBufferCounter > 0f)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+            anim.SetBool("IsJumping", true);
+            anim.SetFloat("yVelocity", rb.linearVelocity.y);
 
             jumpBufferCounter = 0f;
         }
@@ -152,7 +154,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
     public void Movement(float value)
     {
         rb.linearVelocity = new Vector2(horizontal * moveSpeed, rb.linearVelocity.y);
-
+        anim.SetFloat("xVelocity", Mathf.Abs(horizontal));
     }
 
     private void Attack()

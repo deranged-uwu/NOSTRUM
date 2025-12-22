@@ -1,3 +1,4 @@
+using System.Threading;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -5,6 +6,7 @@ public class FloorOne : MonoBehaviour
 {
     private int numOfEnemies = 3;
     public string nextScene;
+    private float Count;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -29,6 +31,6 @@ public class FloorOne : MonoBehaviour
     }
     void NextScene()
     {
-        SceneManager.LoadScene("Alpha Game Test1/Game Test 1/Scenes/Floor 1-2");
+        SceneManager.LoadScene("Alpha Game Test1/Game Test 1/Scenes/Levels/Floor 1-2");
     }
 }
