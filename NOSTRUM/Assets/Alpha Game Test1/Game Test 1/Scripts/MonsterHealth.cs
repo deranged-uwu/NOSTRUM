@@ -9,6 +9,7 @@ public class MonsterHealth : MonoBehaviour
 
     public Action OnDamaged;
     public Action OnDeath;
+    public Level level;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -23,6 +24,7 @@ public class MonsterHealth : MonoBehaviour
 
         if (health <= 0)
         {
+            level.RatDied();
             Destroy(gameObject);
         }
     }

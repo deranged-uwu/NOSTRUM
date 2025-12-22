@@ -7,7 +7,7 @@ public class Enemy : MonoBehaviour
     public MonsterHealth monsterHealth;
 
     public float speed = 2.5f;
-    private float direction = 1f;
+    private float direction = -1f;
 
     private void Update()
     {
@@ -19,7 +19,8 @@ public class Enemy : MonoBehaviour
         if (collider.CompareTag("Barrier"))
         {
             direction *= -1;
-            transform.localScale = new Vector3(direction,1,1);
+            float xScale = Mathf.Abs(transform.localScale.x) * -direction;
+            transform.localScale = new Vector3(xScale,1,1);
         }
     }
 
