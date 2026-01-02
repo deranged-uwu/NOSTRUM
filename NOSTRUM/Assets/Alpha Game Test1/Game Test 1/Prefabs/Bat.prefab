@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 204275778771735079}
   - component: {fileID: 8372034806510773467}
   - component: {fileID: 2224964158705972748}
-  - component: {fileID: 2454329742457888323}
   m_Layer: 0
   m_Name: Bat
   m_TagString: Untagged
@@ -31,7 +30,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3687715702098943087}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3.2357028, y: -1.0412965, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -194,20 +193,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 2
   maxHealth: 2
-  level: {fileID: 2454329742457888323}
---- !u!114 &2454329742457888323
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3687715702098943087}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 889862f986524954ba9d20b1391549a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  numberofRatsInLevel: 2
-  deadRatCount: 0
-  levelToLoad: Floor 2-2
-  levelDelay: 3
+  level: {fileID: 0}
