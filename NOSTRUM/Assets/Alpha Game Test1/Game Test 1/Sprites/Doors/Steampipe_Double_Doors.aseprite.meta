@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c5437af5e4ff9464495c1f8b645344d8
+guid: 0ee07e4a42dc2ac469573d3856c97f44
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -72,8 +72,8 @@ ScriptedImporter:
     textureFormatSet: 0
     applyGammaDecoding: 0
   previousAsepriteImporterSettings:
-    fileImportMode: 0
-    importHiddenLayers: 1
+    fileImportMode: 1
+    importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
@@ -85,8 +85,8 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   asepriteImporterSettings:
-    fileImportMode: 0
-    importHiddenLayers: 1
+    fileImportMode: 1
+    importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
@@ -98,7 +98,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 639029707799413832
+  platformSettingsDirtyTick: 639029716460090186
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -123,9 +123,9 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Light_Stone_Moss_TileSet
+  - name: Frame_0
     originalName: 
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.49152538, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -133,9 +133,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 96
-      height: 96
-    spriteID: fdffcb4e735db6c46bd178682c030d2e
+      width: 59
+      height: 89
+    spriteID: 11404a7a3857b79479230f8c2886c726
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -144,20 +144,19 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  spriteSheetImportData:
-  - name: Light_Stone_Moss_TileSet_0
+  - name: Frame_1
     originalName: 
-    pivot: {x: 0, y: 1}
+    pivot: {x: 0.49152538, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
     rect:
       serializedVersion: 2
       x: 4
-      y: 68
-      width: 32
-      height: 32
-    spriteID: 5d70d39ed3630dd4b8dd233c5aceb853
+      y: 101
+      width: 59
+      height: 89
+    spriteID: 119b778ac614b3446a57f9fcb9e7aa95
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -165,62 +164,20 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Light_Stone_Moss_TileSet_1
+    uvTransform: {x: 4, y: 101}
+  - name: Frame_2
     originalName: 
-    pivot: {x: 0, y: 1}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 36
-      y: 68
-      width: 32
-      height: 32
-    spriteID: b7e0ec2492707df4599330a78c1caa8e
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Light_Stone_Moss_TileSet_2
-    originalName: 
-    pivot: {x: 0, y: 1}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 68
-      y: 68
-      width: 32
-      height: 32
-    spriteID: 8bd7b405a7bb7024d824bccc789c0d9f
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Light_Stone_Moss_TileSet_3
-    originalName: 
-    pivot: {x: 0, y: 1}
+    pivot: {x: 0.49152538, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
     rect:
       serializedVersion: 2
       x: 4
-      y: 36
-      width: 32
-      height: 32
-    spriteID: dd64c829c9138f64184d3b2ecfd63aa7
+      y: 198
+      width: 59
+      height: 89
+    spriteID: 89f37c5066305f74fb7931e236997676
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -228,62 +185,20 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Light_Stone_Moss_TileSet_4
+    uvTransform: {x: 4, y: 198}
+  - name: Frame_3
     originalName: 
-    pivot: {x: 0, y: 1}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 36
-      y: 36
-      width: 32
-      height: 32
-    spriteID: 4c24c1a994590fd438254cb8c5765f5f
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Light_Stone_Moss_TileSet_5
-    originalName: 
-    pivot: {x: 0, y: 1}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 68
-      y: 36
-      width: 32
-      height: 32
-    spriteID: 81eafefb52b525a4a90ed01fc8548727
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Light_Stone_Moss_TileSet_6
-    originalName: 
-    pivot: {x: 0, y: 1}
+    pivot: {x: 0.49152538, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
     rect:
       serializedVersion: 2
       x: 4
-      y: 4
-      width: 32
-      height: 32
-    spriteID: 96d92b263e834be41993ea215f1b850a
+      y: 295
+      width: 59
+      height: 89
+    spriteID: f5e9365cbdff7dc4bb0146d8acfaa791
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -291,20 +206,20 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Light_Stone_Moss_TileSet_7
+    uvTransform: {x: 4, y: 295}
+  - name: Frame_4
     originalName: 
-    pivot: {x: 0, y: 1}
+    pivot: {x: 0.49152538, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
     rect:
       serializedVersion: 2
-      x: 36
-      y: 4
-      width: 32
-      height: 32
-    spriteID: 3db3748625814df4cb8cda4ef19bb4aa
+      x: 4
+      y: 392
+      width: 59
+      height: 89
+    spriteID: aebf2c24d0ad4d74a91988f34a1db2ee
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -312,20 +227,20 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Light_Stone_Moss_TileSet_8
+    uvTransform: {x: 4, y: 392}
+  - name: Frame_5
     originalName: 
-    pivot: {x: 0, y: 1}
+    pivot: {x: 0.49152538, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
     rect:
       serializedVersion: 2
-      x: 68
+      x: 71
       y: 4
-      width: 32
-      height: 32
-    spriteID: db717f711f1f1274d839e300db5b21b0
+      width: 59
+      height: 89
+    spriteID: 3cf446c641c13274f84035503d3e863e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -333,29 +248,135 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
+    uvTransform: {x: 71, y: 4}
+  - name: Frame_6
+    originalName: 
+    pivot: {x: 0.49152538, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 71
+      y: 101
+      width: 59
+      height: 89
+    spriteID: 396cd10e7e1c8374285c627ddd1d7081
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 71, y: 101}
+  - name: Frame_7
+    originalName: 
+    pivot: {x: 0.49152538, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 71
+      y: 198
+      width: 59
+      height: 89
+    spriteID: 0d22749221903234eab665d4039247c6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 71, y: 198}
+  spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 158247548
+      value0: 3440423816
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: Light_Stone_Moss_TileSet
+    name: Steampipe_Double_Doors
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Light_Stone_Moss_TileSet
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 0
+        x: 19
         y: 0
-        width: 96
-        height: 96
-      spriteId: 146476be81631474e851526733e25a31
+        width: 59
+        height: 89
+      spriteId: 11404a7a3857b79479230f8c2886c726
+    - name: Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 0
+        width: 59
+        height: 89
+      spriteId: 119b778ac614b3446a57f9fcb9e7aa95
+    - name: Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 0
+        width: 59
+        height: 89
+      spriteId: 89f37c5066305f74fb7931e236997676
+    - name: Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 0
+        width: 59
+        height: 89
+      spriteId: f5e9365cbdff7dc4bb0146d8acfaa791
+    - name: Frame_4
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 0
+        width: 59
+        height: 89
+      spriteId: aebf2c24d0ad4d74a91988f34a1db2ee
+    - name: Frame_5
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 0
+        width: 59
+        height: 89
+      spriteId: 3cf446c641c13274f84035503d3e863e
+    - name: Frame_6
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 0
+        width: 59
+        height: 89
+      spriteId: 396cd10e7e1c8374285c627ddd1d7081
+    - name: Frame_7
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 0
+        width: 59
+        height: 89
+      spriteId: 0d22749221903234eab665d4039247c6
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -395,8 +416,8 @@ ScriptedImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     androidETC2FallbackOverride: 0
-  generatePhysicsShape: 1
+  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 96, y: 96}
-  previousTextureSize: {x: 128, y: 128}
+  previousTextureSize: {x: 256, y: 512}
