@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: Lighter_Stone_Tileset_0
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 65922563778233768, guid: dca15e362aca8c941b49421f64888152, type: 3}
+  m_Sprite: {fileID: -1217981395863196801, guid: 54bb50dfeb940b3429b4ceae56c2068b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

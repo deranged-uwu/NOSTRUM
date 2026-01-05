@@ -46,9 +46,9 @@ GameObject:
   - component: {fileID: 8187352974586087379}
   - component: {fileID: 9212794863508216814}
   - component: {fileID: 6986818964287743622}
-  - component: {fileID: 2324782738313202264}
   - component: {fileID: 67389227245592040}
   - component: {fileID: 2133781988261458440}
+  - component: {fileID: 5295939750619931409}
   m_Layer: 3
   m_Name: Player 1
   m_TagString: Player
@@ -232,6 +232,10 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 9cf3dc37-df7b-47a1-a678-9f7a1acdf11e
     m_ActionName: New action map/New action
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: f4705217-face-42a9-a772-8dc156903401
+    m_ActionName: New action map1/New action
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: Gamepad
   m_DefaultActionMap: Player
@@ -271,8 +275,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.22862262, y: 0.84370995}
-  m_Size: {x: 0.57836616, y: 1.5866513}
+  m_Offset: {x: -0.22862262, y: 0.65881}
+  m_Size: {x: 0.57836616, y: 1.2856519}
   m_Direction: 0
 --- !u!114 &9212794863508216814
 MonoBehaviour:
@@ -312,20 +316,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextScene: 
---- !u!114 &2324782738313202264
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3965713268420080940}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e284382fd2db5d24fb5181ac7bb5f25b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 4
-  health: 0
 --- !u!95 &67389227245592040
 Animator:
   serializedVersion: 7
@@ -361,6 +351,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 67389227245592040}
+--- !u!114 &5295939750619931409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3965713268420080940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 257d01673c93c094c87d48236d2e7cc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 4
+  health: 0
+  levelToLoad: Floor 1-1
 --- !u!1 &5023371353976068834
 GameObject:
   m_ObjectHideFlags: 0
@@ -373,7 +378,7 @@ GameObject:
   - component: {fileID: 328244719253629036}
   - component: {fileID: 160852453658391554}
   m_Layer: 0
-  m_Name: AttackArea
+  m_Name: ' '
   m_TagString: AttackArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

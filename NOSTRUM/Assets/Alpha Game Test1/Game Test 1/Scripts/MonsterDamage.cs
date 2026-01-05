@@ -3,7 +3,7 @@ using UnityEngine;
 public class MonsterDamage : MonoBehaviour
 {
     public int damage;
-    public PlayerHealth playerHealth;
+    public PlayerTriggers playerHealth;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {

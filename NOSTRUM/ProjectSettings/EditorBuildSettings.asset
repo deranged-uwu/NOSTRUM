@@ -26,6 +26,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Alpha Game Test1/Game Test 1/Scenes/Levels/Save 1-4.unity
     guid: 1a9e7151f8c73014d8e52eb3265ae90b
+  - enabled: 1
+    path: Assets/Alpha Game Test1/Game Test 1/Scenes/Levels/Floor 2-1.unity
+    guid: ffdf9c1d889b085499091116052904ee
+  - enabled: 1
+    path: Assets/Alpha Game Test1/Game Test 1/Scenes/Levels/Floor 2-2.unity
+    guid: 26356c7e6b5098e41a7790f2c2d0fb69
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: d90abd1e5fe75b54886f7a0d68371b82, type: 2}
   m_UseUCBPForAssetBundles: 0

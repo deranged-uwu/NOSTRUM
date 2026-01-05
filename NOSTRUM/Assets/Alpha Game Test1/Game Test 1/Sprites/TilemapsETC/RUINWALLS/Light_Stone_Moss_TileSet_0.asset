@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: Light_Stone_Moss_TileSet_0
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 1398611873111961430, guid: c5437af5e4ff9464495c1f8b645344d8, type: 3}
+  m_Sprite: {fileID: 1157605911006015087, guid: 253a85415ba8bbb48bb134bc33c44eb9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
