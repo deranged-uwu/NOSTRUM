@@ -10,6 +10,12 @@ public class MonsterHealth : MonoBehaviour
     public Action OnDamaged;
     public Action OnDeath;
     public Level level;
+    protected Enemy_VFX enemyVFX;
+
+    protected virtual void Awake()
+    {
+        enemyVFX = GetComponent<Enemy_VFX>();
+    }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -21,6 +27,7 @@ public class MonsterHealth : MonoBehaviour
     public void TakeDamage(int damage)
     {
         health -= damage;
+        enemyVFX.PlayOnDamageVFX();
 
         if (health <= 0)
         {
