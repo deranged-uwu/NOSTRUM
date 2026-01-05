@@ -4,11 +4,19 @@ using UnityEngine.SceneManagement;
 public class Door : MonoBehaviour
 {
     public float waitTime = 2f;
+    public string levelToLoad;
+    public Animator anim;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            SceneManager.LoadScene("Alpha Game Test1/Game Test 1/Scenes/Levels/Floor 2-2", (LoadSceneMode)waitTime);
+            Invoke("LevelToLoad", waitTime);
+            anim.SetTrigger("DoorOpen");
         }
     }
+    private void LevelToLoad()
+    {
+        SceneManager.LoadScene(levelToLoad);
+    }
+
 }
