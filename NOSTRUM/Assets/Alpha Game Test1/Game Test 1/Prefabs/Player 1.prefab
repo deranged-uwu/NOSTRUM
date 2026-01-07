@@ -45,10 +45,10 @@ GameObject:
   - component: {fileID: 8668443669764894093}
   - component: {fileID: 8187352974586087379}
   - component: {fileID: 9212794863508216814}
-  - component: {fileID: 6986818964287743622}
   - component: {fileID: 67389227245592040}
   - component: {fileID: 2133781988261458440}
   - component: {fileID: 5295939750619931409}
+  - component: {fileID: 4901397772146722818}
   m_Layer: 3
   m_Name: Player 1
   m_TagString: Player
@@ -303,19 +303,6 @@ MonoBehaviour:
   playerAnimation: {fileID: 2133781988261458440}
   attackCollider: {fileID: 328244719253629036}
   anim: {fileID: 67389227245592040}
---- !u!114 &6986818964287743622
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3965713268420080940}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e3ae80927e70a846bdaf0901ecdbf4c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nextScene: 
 --- !u!95 &67389227245592040
 Animator:
   serializedVersion: 7
@@ -366,6 +353,20 @@ MonoBehaviour:
   maxHealth: 4
   health: 0
   levelToLoad: Floor 1-1
+--- !u!114 &4901397772146722818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3965713268420080940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbe1599d9c85a4c40afc187bd36feedc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onDamageVfxMat: {fileID: 2100000, guid: b0d86e3d3c6dc6142826cc0bb03e43d7, type: 2}
+  onDamageVfxDuration: 0.15
 --- !u!1 &5023371353976068834
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: 7e91328adf7abfd44a8f2aac42266ce8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3575122305725855978
+    second: Zombie pixilart-sprite_0
+  - first:
+      213: -8752527338599122995
+    second: Zombie pixilart-sprite_1
+  - first:
+      213: -6320482949143494032
+    second: Zombie pixilart-sprite_2
+  - first:
+      213: -3609719543637697022
+    second: Zombie pixilart-sprite_3
+  - first:
+      213: 6302677709948427574
+    second: Zombie pixilart-sprite_4
+  - first:
+      213: 3812533315596012604
+    second: Zombie pixilart-sprite_5
+  - first:
+      213: 8592141661028575746
+    second: Zombie pixilart-sprite_6
+  - first:
+      213: -5176965912369093630
+    second: Zombie pixilart-sprite_7
+  - first:
+      213: -6605909882405652180
+    second: Zombie pixilart-sprite_8
+  - first:
+      213: 6807171851234695664
+    second: Zombie pixilart-sprite_9
+  - first:
+      213: -2585974280168956479
+    second: Zombie pixilart-sprite_10
+  - first:
+      213: -8554066265449377627
+    second: Zombie pixilart-sprite_11
+  - first:
+      213: -7236749568906303293
+    second: Zombie pixilart-sprite_12
+  - first:
+      213: 7113126032600352284
+    second: Zombie pixilart-sprite_13
+  - first:
+      213: -8528635507950280474
+    second: Zombie pixilart-sprite_14
+  - first:
+      213: 3747316778557605388
+    second: Zombie pixilart-sprite_15
+  - first:
+      213: 593336950023241457
+    second: Zombie pixilart-sprite_16
+  - first:
+      213: 4357634963991337950
+    second: Zombie pixilart-sprite_17
+  - first:
+      213: 867708090016129252
+    second: Zombie pixilart-sprite_18
+  - first:
+      213: -3546521208107730795
+    second: Zombie pixilart-sprite_19
+  - first:
+      213: -8647987601460078624
+    second: Zombie pixilart-sprite_20
+  - first:
+      213: -3045935755837233884
+    second: Zombie pixilart-sprite_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Zombie pixilart-sprite_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 9
+        width: 47
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae87d559bc26d9130800000000000000
+      internalID: 3575122305725855978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie pixilart-sprite_1
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 8
+        width: 46
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc777e722c6c88680800000000000000
+      internalID: -8752527338599122995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie pixilart-sprite_2
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 8
+        width: 46
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 072836fbe322948a0800000000000000
+      internalID: -6320482949143494032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie pixilart-sprite_3
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 8
+        width: 48
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20e90be3333b7edc0800000000000000
+      internalID: -3609719543637697022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie pixilart-sprite_4
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 8
+        width: 51
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63d9f33fbfb977750800000000000000
+      internalID: 6302677709948427574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie pixilart-sprite_5
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 8
+        width: 55
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3c4172d9d6d8e430800000000000000
+      internalID: 3812533315596012604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie pixilart-sprite_6
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 8
+        width: 56
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20a617d415b6d3770800000000000000
+      internalID: 8592141661028575746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie pixilart-sprite_7
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 8
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2042fe27ee8b728b0800000000000000
+      internalID: -5176965912369093630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie pixilart-sprite_8
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 8
+        width: 63
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c29f7f826f71354a0800000000000000
+      internalID: -6605909882405652180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie pixilart-sprite_9
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 8
+        width: 63
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f9d1e59bbee77e50800000000000000
+      internalID: 6807171851234695664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie pixilart-sprite_10
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 8
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cd9b30e716cc1cd0800000000000000
+      internalID: -2585974280168956479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie pixilart-sprite_11
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 8
+        width: 61
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a0dcbe8d0ad94980800000000000000
+      internalID: -8554066265449377627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie pixilart-sprite_12
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 8
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c8e0e8eb96e19b90800000000000000
+      internalID: -7236749568906303293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie pixilart-sprite_13
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 8
+        width: 56
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c164abf8076e6b260800000000000000
+      internalID: 7113126032600352284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie pixilart-sprite_14
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 8
+        width: 53
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e027d1313334a980800000000000000
+      internalID: -8528635507950280474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie pixilart-sprite_15
+      rect:
+        serializedVersion: 2
+        x: 1523
+        y: 8
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0689c681c4210430800000000000000
+      internalID: 3747316778557605388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie pixilart-sprite_16
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 8
+        width: 52
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1febf3affc4fb3800800000000000000
+      internalID: 593336950023241457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie pixilart-sprite_17
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 8
+        width: 52
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edb968979ed697c30800000000000000
+      internalID: 4357634963991337950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie pixilart-sprite_18
+      rect:
+        serializedVersion: 2
+        x: 1822
+        y: 8
+        width: 46
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e0e42a19e7ba0c00800000000000000
+      internalID: 867708090016129252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie pixilart-sprite_19
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 8
+        width: 45
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 598795260c938cec0800000000000000
+      internalID: -3546521208107730795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie pixilart-sprite_20
+      rect:
+        serializedVersion: 2
+        x: 2023
+        y: 8
+        width: 45
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e75df0781d2cf780800000000000000
+      internalID: -8647987601460078624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie pixilart-sprite_21
+      rect:
+        serializedVersion: 2
+        x: 2121
+        y: 7
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42529a07199aab5d0800000000000000
+      internalID: -3045935755837233884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Zombie pixilart-sprite_0: 3575122305725855978
+      Zombie pixilart-sprite_1: -8752527338599122995
+      Zombie pixilart-sprite_10: -2585974280168956479
+      Zombie pixilart-sprite_11: -8554066265449377627
+      Zombie pixilart-sprite_12: -7236749568906303293
+      Zombie pixilart-sprite_13: 7113126032600352284
+      Zombie pixilart-sprite_14: -8528635507950280474
+      Zombie pixilart-sprite_15: 3747316778557605388
+      Zombie pixilart-sprite_16: 593336950023241457
+      Zombie pixilart-sprite_17: 4357634963991337950
+      Zombie pixilart-sprite_18: 867708090016129252
+      Zombie pixilart-sprite_19: -3546521208107730795
+      Zombie pixilart-sprite_2: -6320482949143494032
+      Zombie pixilart-sprite_20: -8647987601460078624
+      Zombie pixilart-sprite_21: -3045935755837233884
+      Zombie pixilart-sprite_3: -3609719543637697022
+      Zombie pixilart-sprite_4: 6302677709948427574
+      Zombie pixilart-sprite_5: 3812533315596012604
+      Zombie pixilart-sprite_6: 8592141661028575746
+      Zombie pixilart-sprite_7: -5176965912369093630
+      Zombie pixilart-sprite_8: -6605909882405652180
+      Zombie pixilart-sprite_9: 6807171851234695664
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
