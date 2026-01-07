@@ -18,6 +18,7 @@ public class Level : MonoBehaviour
     }
     private void LevelToLoad()
     { 
-       SceneManager.LoadScene(levelToLoad);
+        Debug.Log(levelToLoad);
+        SceneManager.LoadScene(levelToLoad);
     }
 }
