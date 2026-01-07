@@ -32,6 +32,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Alpha Game Test1/Game Test 1/Scenes/Levels/Floor 2-2.unity
     guid: 26356c7e6b5098e41a7790f2c2d0fb69
+  - enabled: 1
+    path: Assets/Alpha Game Test1/Game Test 1/Scenes/Settings/Settings.unity
+    guid: 929e141cdc6ed704bbb9cd1882422138
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: d90abd1e5fe75b54886f7a0d68371b82, type: 2}
   m_UseUCBPForAssetBundles: 0

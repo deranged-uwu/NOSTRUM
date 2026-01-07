@@ -2,19 +2,19 @@ using UnityEngine;
 
 public class PauseMenu : MonoBehaviour
 {
-   public GameObject container;
+   public GameObject Pausemenu17;
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            container.SetActive(true);
+            Pausemenu17.SetActive(true);
             Time.timeScale = 0;
         }
     }
 
     public void ResumeButton()
     {
-        container.SetActive(false);
+        Pausemenu17.SetActive(false);
         Time.timeScale = 1;
     }
 
