@@ -27,7 +27,7 @@ public class Player : MonoBehaviour
     public LayerMask groundLayer;
     public PlayerAnimation playerAnimation;
 
-    private SpriteRenderer spriteRenderer;
+    public SpriteRenderer spriteRenderer;
 
     public Collider2D attackCollider;
 
@@ -100,7 +100,7 @@ public class Player : MonoBehaviour
         if (coyoteTimeCounter > 0f && jumpBufferCounter > 0f)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
-            anim.SetBool("IsJumping", true);
+            //anim.SetBool("IsJumping", true);
             anim.SetFloat("yVelocity", rb.linearVelocity.y);
 
             jumpBufferCounter = 0f;
@@ -126,7 +126,7 @@ public class Player : MonoBehaviour
         }
         if (isGrounded == false)
         {
-            anim.SetBool("IsJumping", true);
+            //anim.SetBool("IsJumping", true);
         }
     }
 
@@ -140,16 +140,16 @@ public class Player : MonoBehaviour
         horizontal = context.ReadValue<float>();
         if (horizontal > 0)
         {
-            spriteRenderer.flipX = false;
+            //spriteRenderer.flipX = false;
             Vector2 localScale = gameObject.transform.GetChild(0).localScale;
-            localScale.x = 0.4396439f;
+            localScale.x = 1;
             gameObject.transform.GetChild(0).localScale = localScale;
         }
         else if (horizontal < 0)
         {
-            spriteRenderer.flipX = true;
+            //spriteRenderer.flipX = true;
             Vector2 localScale = gameObject.transform.GetChild(0).localScale;
-            localScale.x = -0.4396439f;
+            localScale.x = -1;
             gameObject.transform.GetChild(0).localScale = localScale;
 
         }
