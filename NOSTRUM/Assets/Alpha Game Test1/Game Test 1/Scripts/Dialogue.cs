@@ -30,7 +30,7 @@ public class Dialogue : MonoBehaviour
             textComponent.text = lines[index];
         }
 
-        if (Input
+        if (Input.GetKeyDown(KeyCode.Joystick1Button0))
         {
             NextLine();
         }

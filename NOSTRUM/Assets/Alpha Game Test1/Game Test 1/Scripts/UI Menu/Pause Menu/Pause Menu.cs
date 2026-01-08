@@ -11,6 +11,11 @@ public class PauseMenu : MonoBehaviour
             Pausemenu17.SetActive(true);
             Time.timeScale = 0;
         }
+        if (Input.GetKeyDown(KeyCode.Joystick1Button7))
+        {
+            Pausemenu17.SetActive(true);
+            Time.timeScale = 0;
+        }
     }
 
     public void ResumeButton()
