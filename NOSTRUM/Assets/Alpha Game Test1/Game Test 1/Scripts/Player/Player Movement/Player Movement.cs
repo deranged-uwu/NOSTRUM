@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
-public class NewMonoBehaviourScript : MonoBehaviour
+public class Player : MonoBehaviour
 {
     public PlayerInput inputSys;
 
@@ -11,7 +11,10 @@ public class NewMonoBehaviourScript : MonoBehaviour
     private bool attacking = false;
     private float timeToAttack = 0.25f;
     private float timer = 0f;
-    
+
+    [Header("PickUp Settings")] 
+    public int Gear;
+    public int Spring;
 
 
     [Header("Movement Settings")]
@@ -45,6 +48,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
     {
         Animator animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+       
     }
 
     // Update is called once per frame
@@ -163,6 +167,6 @@ public class NewMonoBehaviourScript : MonoBehaviour
         attackCollider.enabled = attacking;
         playerAnimation.Attack();
     }
-
+    
 }
 
