@@ -1582,6 +1582,10 @@ PrefabInstance:
       propertyPath: RestSound
       value: 
       objectReference: {fileID: 1117574362}
+    - target: {fileID: 3102431462175378295, guid: 4da2de798fb05d345b63bef05e5448e4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9176676452307478161, guid: 4da2de798fb05d345b63bef05e5448e4, type: 3}
       propertyPath: m_Name
       value: Flower
@@ -1591,9 +1595,33 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 9176676452307478161, guid: 4da2de798fb05d345b63bef05e5448e4, type: 3}
+      insertIndex: 4
+      addedObject: {fileID: 1269224867}
+    - targetCorrespondingSourceObject: {fileID: 9176676452307478161, guid: 4da2de798fb05d345b63bef05e5448e4, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1117574362}
   m_SourcePrefab: {fileID: 100100000, guid: 4da2de798fb05d345b63bef05e5448e4, type: 3}
+--- !u!95 &1269224866 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 7971602726501636116, guid: 4da2de798fb05d345b63bef05e5448e4, type: 3}
+  m_PrefabInstance: {fileID: 1269224865}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1269224867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117574355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56866535a4ec92e49af28c8a1395109c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RestSound: {fileID: 1117574362}
+  anim: {fileID: 1269224866}
+  waitTime: 7
+  levelToLoad: End Credits
 --- !u!1 &1321195941
 GameObject:
   m_ObjectHideFlags: 0
